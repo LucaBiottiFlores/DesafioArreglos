@@ -147,8 +147,8 @@ document.write("<h1>Estadísticas centro médico ñuñoa</h1>");
 
 // VALORES Y PRINT DE RADIOLOGÍA
 
-var lastElementRadio = radiology.length - 1;
-var firstElementRadio = 0;
+let lastElementRadio = radiology.length - 1;
+let firstElementRadio = 0;
 
 document.write(
   "<h2>Primera Hora Radiología</h2>" +
@@ -168,8 +168,8 @@ document.write("</p>");
 
 // VALORES Y PRINT DE TRAUMATOLOGÍA
 
-var lastElementTrauma = traumatology.length - 1;
-var firstElementTrauma = 0;
+let lastElementTrauma = traumatology.length - 1;
+let firstElementTrauma = 0;
 
 document.write(
   "<h2>Primera Hora Traumatología</h2>" +
@@ -189,8 +189,8 @@ document.write("</p>");
 
 // VALORES Y PRINT DE DENTAL
 
-var lastElementDental = dental.length - 1;
-var firstElementDental = 0;
+let lastElementDental = dental.length - 1;
+let firstElementDental = 0;
 
 document.write(
   "<h2>Primera Hora Dental</h2>" +
